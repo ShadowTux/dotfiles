@@ -12,14 +12,18 @@ set TERM "xterm-256color"                         # Sets the terminal type
 set EDITOR "nano"                 # $EDITOR use Emacs in terminal
 set VISUAL "vscode"              # $VISUAL use vscode in GUI mode
 
+
+
+
+
 ### SET MANPAGER
 ### Uncomment only one of these!
 
 ### "nvim" as manpager
-set -x MANPAGER "nvim +Man!"
+#set -x MANPAGER "nvim +Man!"
 
 ### "less" as manpager
-# set -x MANPAGER "less"
+ set -x MANPAGER "less"
 
 ### SET EITHER DEFAULT EMACS MODE OR VI MODE ###
 function fish_user_key_bindings
@@ -148,6 +152,10 @@ alias cd..='cd ..'
 #alias ll='exa -l --color=always --group-directories-first'  # long format
 #alias lt='exa -aT --color=always --group-directories-first' # tree listing
 #alias l.='exa -a | egrep "^\."'
+
+#alias for nano
+alias nano='nano -l'
+
 
 # pacman and yay
 #alias pacsyu='sudo pacman -Syu'                  # update only standard pkgs
