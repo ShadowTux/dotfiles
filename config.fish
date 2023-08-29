@@ -12,10 +12,6 @@ set TERM "xterm-256color"                         # Sets the terminal type
 set EDITOR "nano"                 # $EDITOR use Emacs in terminal
 set VISUAL "vscode"              # $VISUAL use vscode in GUI mode
 
-
-
-
-
 ### SET MANPAGER
 ### Uncomment only one of these!
 
