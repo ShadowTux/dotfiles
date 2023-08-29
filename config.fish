@@ -41,7 +41,7 @@ set fish_color_param brcyan
 
 ### FUNCTIONS ###
 
-# Functions needed for !! and !$
+# Functions needed for !!
 function sudo
     if test "$argv" = !!
         eval command sudo $history[1]
