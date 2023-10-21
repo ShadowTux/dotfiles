@@ -15,7 +15,7 @@ mkdir -p ~/.config
 
 # Create config files
 echo "# Contents of config.fish" > ~/.config/fish/config.fish
-curl -fsSL https://raw.githubusercontent.com/username/ShadowTux/main/config.fish >> ~/.config/fish/config.fish
+curl -fsSL https://raw.githubusercontent.com/ShadowTux/dotfiles/main/config.fish >> ~/.config/fish/config.fish
 
 echo "# Contents of starship.toml" > ~/.config/starship.toml
 curl -fsSL https://raw.githubusercontent.com/ShadowTux/dotfiles/main/starship.toml >> ~/.config/starship.toml
